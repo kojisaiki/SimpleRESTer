@@ -11,6 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class HelloResource {
 
+    /**
+     * Return simple plain text.
+     * @return
+     */
     @RequestMapping("/hello")
     public ResponseEntity hello() {
         return ResponseEntity.ok("hello!yahoo!");
