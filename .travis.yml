@@ -5,3 +5,9 @@ jdk:
 
 before_script:
   - ./gradlew install
+
+scripts:
+  - ./gradlew test
+
+notifications:
+  email: false
