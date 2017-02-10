@@ -1,16 +1,12 @@
 language: java
-
 jdk:
-  - oraclejdk8
-
+- oraclejdk8
 before_install:
-  - chmod +x ./gradlew
-
+- chmod +x ./gradlew
 notifications:
   email: false
-
 deploy:
   provider: heroku
   api_key:
-    secure: "9bb93e46-49eb-412c-a589-155fed60b80b"
-    app: simplerester
+    secure: V3pedZK9SDRt6YFvWJGDH6DOyvhWXiPkmodzBX7xqiuseiq7ypqBnJzp9rdac1/FtJS4NTeR7Jop0Wt3+UGh9UWJAiIjv+5uKLAnZupOJU0cF+lqkc6GtKlpZZBYAyIKXKHFQ1lfZp13bm8hNw+DRpENzIzWLf4kjXKUFPwJ7ZqdN7r1l+C9fV5x9cL8r9/KTeQ1W9wr9iDxLR+o8ixieT6lugnw5QQ7ECYZ+7VAkYDI4a0ZxBhFSD0OcLGE0Mw/WYfbNi289ObyRGPa9e8z83woAELLwr8Vn+UaiMdfSpjTpwsqL4kOhCcYnmwLwRqJ8DI6YRW3Qei6xxPFHP1NIsNWfwZVIIP1eJ+h9Kh3+gKHv098GSAIfJL8WNKAUOV45P/vSC/bTkr9YlUXmcYwlw+lbQSjCvunIpVjcVC7SQPyirbwO3V/GP+gt66ToARYGLq59WIBGcXtZwi20TU5qATaaMkFM6I4Am+g0Sw7gUVnp3fpFXelkpPwHMsr/C0hh1GpsHyNwMFYfj4nfI5Ytv8dNfVTOUJVSxrAfkgAhfsxmQHGNSbdGrJA26R0IW8psKrxU1sXXyyd/iAesd+1keHa7Njb1VyTjv7FPsr4jCIBPaRLeyYMDYYYLIxzGwyiOVVkcocj3kv/rItSEI+2h8jHK3ndtp9wdCbREXHNbhE=
+  app: simplerester
