@@ -8,3 +8,9 @@ before_install:
 
 notifications:
   email: false
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "9bb93e46-49eb-412c-a589-155fed60b80b"
+    app: simplerester
